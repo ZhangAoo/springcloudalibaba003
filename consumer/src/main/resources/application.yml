@@ -1,0 +1,14 @@
+server:
+  port: 8010
+#feign:
+#  sentinel:
+#    enabled: true
+spring:
+  cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+  application:
+    name: consumer
+#rocketmq:
+#  name-server: 192.168.248.130:9876
